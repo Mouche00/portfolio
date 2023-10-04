@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="style.css" />
     <title>My Portfolio</title>
 </head>
-<body class="wrapper">
-    <header>
-        <nav>
-            <ul class="navbar">
+<body class="container">
+    <header class="navbar">
+        <nav>          
+            <ul>
                 <li>Home</li>
                 <li>Projects</li>
                 <li >About</li>
@@ -18,88 +18,90 @@
         </nav>
     </header>
 
-    <!-- profile -->
-    <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/6b268e42-9288-48aa-a7e5-06f074e388b3/db5j572-6d17b4c9-17c5-45e7-972d-8eb548c4245f.png" alt="Profile Picture: Adam Jensen">
+    <div class="subcontainer">
+        <!-- profile -->
+        <img class="profile-img" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/intermediary/f/6b268e42-9288-48aa-a7e5-06f074e388b3/db5j572-6d17b4c9-17c5-45e7-972d-8eb548c4245f.png" alt="Profile Picture: Adam Jensen">
 
-    <!-- info -->
-    <div class="row-one">
-        <h1>INFO_</h1>
-        <ul>
-            <li>Name: <span> Adam Jensen </span></li>
-            <li>Age: <span> 41 </span></li>
-            <li>Email: <span> ad.jen@interpol.net </span></li>
-            <li>Address: <span> Appartment 43, Zeleň Apartments, Překážka district, Prague </span></li>
-        </ul>
-    </div>
-    
-    <!-- status -->
-    <div class="row-two">
-        <h1>STATUS_</h1>
-        <ul>
-            <li>
-                Current Status: 
-                <span> Interpol Agent </span>
-            </li>
-            <li>
-                Description: 
-                <span> TF29's Prague-based Interpol Division, instituted against the rising terrorist attacks following the Aug incident. </span>
-            </li>
-        </ul>
-    </div>
+        <!-- info -->
+        <div class="info">
+            <h1>INFO_</h1>
+            <ul>
+                <li>Name: <span> Adam Jensen </span></li>
+                <li>Age: <span> 41 </span></li>
+                <li>Email: <span> ad.jen@interpol.net </span></li>
+                <li>Address: <span> Appartment 43, Zeleň Apartments, Překážka district, Prague </span></li>
+            </ul>
+        </div>
+        
+        <!-- status -->
+        <div class="status">
+            <h1>STATUS_</h1>
+            <ul>
+                <li>
+                    Current Status: 
+                    <span> Interpol Agent </span>
+                </li>
+                <li>
+                    Description: 
+                    <span> TF29's Prague-based Interpol Division, instituted against the rising terrorist attacks following the Aug incident. </span>
+                </li>
+            </ul>
+        </div>
 
-    <!-- diplomas -->
-    <div class="row-four">
-        <h1>DIPLOMAS_</h1>
-        <ul>
-            <li>High School Diploma: 
-                <ul>
-                    <li>Establishment: <span> Detroit High School </span> </li>
-                    <li>Year: <span> 2009 </span></li>
-                </ul>
-            </li>
-            <li> Undergraduate Diploma: 
-                <ul>
-                    <li>Establishment: <span> University of Pheonix </span></li>
-                    <li>Year: <span> 2010 </span></li>
-                    <li>Type: <span> Criminal Justice </span></li>
-                </ul>
-            </li>
-        </ul>
-    </div>
+        <!-- diplomas -->
+        <div class="diplomas second-color">
+            <h1>DIPLOMAS_</h1>
+            <ul>
+                <li>High School Diploma: 
+                    <ul>
+                        <li>Establishment: <span> Detroit High School </span> </li>
+                        <li>Year: <span> 2009 </span></li>
+                    </ul>
+                </li>
+                <li> Undergraduate Diploma: 
+                    <ul>
+                        <li>Establishment: <span> University of Pheonix </span></li>
+                        <li>Year: <span> 2010 </span></li>
+                        <li>Type: <span> Criminal Justice </span></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
 
-    <!-- experience -->
-    <div class="row-four">
-        <h1>EXPERIENCE_</h1>
-        <ul>
-            <li>Police Officer: 
-                <ul>
-                    <li>Establishment: Detroit City Police Department</li>
-                    <li>Year: 2011</li>
-                </ul>
-            </li>
-            <li> Bodyguard: 
-                <ul>
-                    <li>Establishment: Serif Industries</li>
-                    <li>Year: 2020</li>
-                </ul>
-            </li>
-        </ul>
-    </div>
+        <!-- experience -->
+        <div class="experience second-color">
+            <h1>EXPERIENCE_</h1>
+            <ul>
+                <li>Police Officer: 
+                    <ul>
+                        <li>Establishment: Detroit City Police Department</li>
+                        <li>Year: 2011</li>
+                    </ul>
+                </li>
+                <li> Bodyguard: 
+                    <ul>
+                        <li>Establishment: Serif Industries</li>
+                        <li>Year: 2020</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
 
-    <!-- tech -->
-    <div class="row-four">
-        <h1>TECH_</h1>
-        <ul>
-            <li>C</li>
-            <li>HTML/CSS</li>
-            <li>JS</li>
-            <li>JAVA</li>
-            <li>PHP</li>
-        </ul>
+        <!-- tech -->
+        <div class="tech second-color">
+            <h1>TECH_</h1>
+            <ul>
+                <li>C</li>
+                <li>HTML/CSS</li>
+                <li>JS</li>
+                <li>JAVA</li>
+                <li>PHP</li>
+            </ul>
+        </div>
     </div>
 
     <!-- contact -->
-    <div class="row-five">
+    <div class="contact">
         <h1>CONTACT_</h1>
         <form>
             <label for="name">Name:</label>
